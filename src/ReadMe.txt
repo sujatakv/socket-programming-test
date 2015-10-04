@@ -10,3 +10,7 @@
 7> Run the program,
 	java SocketClient 
    This program run in infinite loop, continuously reading the messages from the stream.
+8> The input stream should contain parameters which are "," separated by default and should end with new line character. i.e. \n
+	Example : 
+	1, 2, 3, 4, 5, 6, 7, 8, 9, 10\n
+   One such line is considered as one whole message, with 10 parameter values in the above example. Parameter names need not be there in the input stream.
